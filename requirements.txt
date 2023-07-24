@@ -12,3 +12,5 @@ altair==4.0
 # included to use instructor embeddings (they are rated to be better than the current openAI embeddings we are using)
  InstructorEmbedding==1.0.1
  sentence-transformers==2.2.2
+#the embeddings as well as the llm model both can be switched to opensource models with minor adustments 
+#it takes slightly longer for it to generate outputs and embeddings in that case which is why i used OpenAi 
