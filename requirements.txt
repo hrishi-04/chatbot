@@ -6,9 +6,9 @@ openai==0.27.6
 faiss-cpu==1.7.4
 altair==4.0
 
-# uncomment to use huggingface llms
+# included to use huggingface llms (they are a lot slower and though accurate they are not able to articulate as well as OpenAI's llm models)
  huggingface-hub==0.14.1
 
-# uncomment to use instructor embeddings
+# included to use instructor embeddings (they are rated to be better than the current openAI embeddings we are using)
  InstructorEmbedding==1.0.1
  sentence-transformers==2.2.2
