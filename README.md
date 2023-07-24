@@ -16,6 +16,7 @@ It is important that you run this application after getting all the files of thi
 Run it by the command - streamlit run app2.py 
 
 # IMPORTANT - 
-This program calls openai's APIs for the embeddings and the llms if possible please provide your own keys in a file named .env in the directory.
+This program calls openai's APIs for the embeddings and the llms if possible please provide your own keys in the file named .env in the directory.
+create your own .env file in your directory and copy the contents of my .env folder or provide your own keys in the same format.
 This is a paid service by openAI but the cost is very minimal.
 I am including my APIkey in the .env folder anyways 
